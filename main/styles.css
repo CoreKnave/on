@@ -1,0 +1,48 @@
+/* Общие стили для body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url('background.jpg'); /* Указываем путь к картинке */
+  background-size: cover; /* Растягиваем картинку на весь экран */
+  background-position: center; /* Центрируем картинку */
+  height: 100vh; /* Задаем высоту на весь экран */
+}
+
+/* Стили для контейнера */
+.container {
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Стили для редактируемого блока */
+.editable-block {
+  background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный фон */
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #333;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Стили для кнопки */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
